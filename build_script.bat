@@ -1,5 +1,5 @@
 @echo off
-title "Hyacinth | The Orchid build system"
+title Hyacinth
 mkdir Project
 cd Project
 echo const fs = require('fs'); if (!fs.existsSync('main.oc')) { fs.writeFileSync('main.oc', 'console.log(\'Hello, World!\');\n') } > HyacinthInternals.js
