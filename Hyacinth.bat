@@ -16,7 +16,7 @@ if not exist ".installed" start cmd /k "title HyacinthDependencyInstaller & npm 
 if not exist ".installed" timeout /t 3 /nobreak
 if not exist ".installed" taskkill /F /FI "WINDOWTITLE eq HyacinthDependencyInstaller*"
 if not exist ".installed" start cmd /k "title HyacinthDependencyInstaller & npm install"
-if not exist ".installed" timeout /t 3 /nobreak
+if not exist ".installed" timeout /t 7 /nobreak
 if not exist ".installed" taskkill /F /FI "WINDOWTITLE eq HyacinthDependencyInstaller*"
 if not exist ".installed" type nil > .installed
 node index.js %1
