@@ -4,7 +4,7 @@ A build system that makes compiling Orchid projects a lot easier.
 
 ## Usage
 
-Simply download clone this repo and run the `build_script.bat` file
+Simply download the latest release and run the `build_script.bat` file
 
 ## TODO
 
